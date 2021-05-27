@@ -1,6 +1,6 @@
 <?php
 
-$sendTo = "abcdef@gmail.com";//don't forget to change it
+$sendTo = "harshitaachadha@gmail.com";//don't forget to change it
 
 $action = $_POST['action'];
 
@@ -11,11 +11,11 @@ $action = $_POST['action'];
 
   if ($name == "") {
     echo "<p class=\"error\">Please fill up your name</p>";
-        
+
    }
    else if ($email == "") {
     echo "<p class=\"error\">Please fill up your email</p>";
-        
+
    }
     else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
       echo "<p class=\"error\">Invalid email format</p>";
@@ -25,12 +25,12 @@ $action = $_POST['action'];
     }
    else if ($message == "") {
     echo "<p class=\"error\">Please fill up your message</p>";
-        
+
    }
    else if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
     echo "<p class=\"error\">Only letters and white space allowed in name</p>";
     }
-   
+
         else
     {
         $header = 'From: ' . $name . '<' . $email . ">\r\n" .

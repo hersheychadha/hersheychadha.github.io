@@ -1318,7 +1318,9 @@ header #newsletter label {
   padding-right: 12px;
   width: 30px;
 }
-
+.purpee{
+  background-color: #1F0457 !important;
+}
 .contact-detail .social-icons a i {
   font-size: 14px;
   margin-right: 5px;
