@@ -1,3 +1,3 @@
 # hersheychadha.github.io
 
-Hello!
+Personal Portfolio made with templates+ tears+ sass.
